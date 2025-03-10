@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.9);
+  }
+  
+  .main{
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .first-section{
+    color: white;
+    width: 30%;
+    height: 100dvh;
+    background-image: url(bg_leaf.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 40px;
+    margin: 40% 0;
+  }
+  
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(251, 251, 251, 0.9);
+    width: 50%;
+    padding: 40px;
+    flex-shrink: 0;
+    background-color: rgba(251, 251, 251, 0.9);
+    overflow-x: hidden;
+  }
+  
+  form p, .last-info{
+    padding: 20px 40px;
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  fieldset{
+    margin-left: -40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20%;
+    padding: 40px;
+    font-weight: 900;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 5px 4px rgb(193, 193, 193);
+  }
+  
+  legend{
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  input{
+    border: 1px solid #E5E7EB;
+    border-radius: 0.3rem;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input:invalid {
+    border:1px solid red;
+  }
+  
+  input:valid {
+    border:1px solid rgb(193, 193, 193);
+  }
+  
+  input:focus{
+    border: 2px solid green;
+    outline: none;
+  }
+  
+  button{
+    background-color:#596D48;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin: 40px 40px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px 3px rgb(193, 193, 193);
+  }
+  
+  button:hover{
+    background-color: #4e5f3f;
+  }
+  
